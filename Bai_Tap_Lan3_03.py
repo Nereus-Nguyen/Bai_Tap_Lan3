@@ -2,9 +2,7 @@ read_file = 'names.txt'
 with open(read_file, 'r') as f:
     all_lines = f.read()
 names = all_lines.replace('"', '').split(',')
-
 sort_names = sorted(names)
-
 
 def value(char):
     # Chuyển đổi ký tự chữ cái thành giá trị tương ứng
