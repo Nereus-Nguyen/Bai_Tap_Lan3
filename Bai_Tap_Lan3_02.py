@@ -7,6 +7,7 @@ chunks = re.findall(pattern, data)
 for chunk in chunks:
     print(chunk)
     
+    
     for i in chunk:
         tinh_tong = sum(map(int, chunk))
         
